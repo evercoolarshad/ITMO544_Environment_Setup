@@ -14,4 +14,8 @@ sudo php composer.phar require aws/aws-sdk-php
 
 sudo mv vendor /var/www/html
 
+sudo php /var/www/html/setup.php 
+
+sudo service apache2 restart
+
 echo "hello" > /temp/hello.txt
