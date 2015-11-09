@@ -14,7 +14,9 @@ sudo php composer.phar require aws/aws-sdk-php
 
 sudo mv vendor /var/www/html
 
-sudo php /var/www/html/setup.php 
+sudo php /var/www/html/setup.php
+
+chmod 600 /var/www/html/setup.php 
 
 sudo service apache2 restart
 
