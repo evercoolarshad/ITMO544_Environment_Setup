@@ -22,7 +22,7 @@ sudo chmod +x /var/www/html/setup.php > /tmp/setup.txt
 
 sudo php /var/www/html/setup.php > /tmp/setup.txt
 
-sudo chmod 600 /var/www/html/setup.php
+#sudo chmod 600 /var/www/html/setup.php
 
 sudo service apache2 restart
 sudo service apache2 reload
