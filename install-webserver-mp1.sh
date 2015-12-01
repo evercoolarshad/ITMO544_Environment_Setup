@@ -6,6 +6,7 @@ sudo apt-get install -y php5-imagick
 
 git clone https://github.com/evercoolarshad/ITMO544_Application_Setup.git
 echo "cloned git repository"
+sudo php ITMO544_Application_Setup/setup.php
 
 sudo mv ./ITMO544_Application_Setup/images /var/www/html/images
 sudo mv ./ITMO544_Application_Setup/index.html /var/www/html
