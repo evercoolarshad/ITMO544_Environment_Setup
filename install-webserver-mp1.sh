@@ -27,5 +27,5 @@ sudo php /var/www/html/setup.php
 sudo service apache2 restart
 sudo service apache2 reload
 
-echo "hello" > /tmp/hello.txt
+echo "Webserver installed" > /tmp/hello.txt
 echo "All done"
