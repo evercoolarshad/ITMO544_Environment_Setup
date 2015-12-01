@@ -12,15 +12,15 @@ sudo mv ./ITMO544_Application_Setup/index.html /var/www/html
 sudo mv ./ITMO544_Application_Setup/*.php /var/www/html
 echo "moved the directories to web root"
 
+sudo chmod +x /var/www/html/setup.php
+
+sudo php /var/www/html/setup.php
+
 sudo curl -sS https://getcomposer.org/installer | php
 
 sudo php composer.phar require aws/aws-sdk-php
 
 sudo mv vendor /var/www/html
-
-sudo chmod +x /var/www/html/setup.php
-
-sudo php /var/www/html/setup.php
 
 #sudo chmod 600 /var/www/html/setup.php
 
